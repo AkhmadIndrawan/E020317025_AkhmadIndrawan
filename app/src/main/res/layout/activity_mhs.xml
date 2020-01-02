@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="100dp"
+        tools:ignore="RtlHardcoded,UselessParent">
+
+        <TextView
+            android:id="@+id/tvNim"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:text="Nim"
+            android:textColor="#000"
+            tools:ignore="HardcodedText,InefficientWeight" />
+
+        <EditText
+            android:id="@+id/etNim"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="100dp"
+        tools:ignore="RtlHardcoded,UselessParent">
+
+        <TextView
+            android:id="@+id/tvNama"
+            android:text="Nama"
+            android:textColor="#000"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            tools:ignore="HardcodedText,InefficientWeight"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="100dp"
+        tools:ignore="RtlHardcoded,UselessParent">
+
+        <TextView
+            android:id="@+id/tvAlamat"
+            android:text="Alamat"
+            android:textColor="#000"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            tools:ignore="HardcodedText,InefficientWeight"/>
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="100dp"
+        tools:ignore="RtlHardcoded,UselessParent">
+
+        <TextView
+            android:id="@+id/tvTelp"
+            android:text="Telp"
+            android:textColor="#000"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            tools:ignore="HardcodedText,InefficientWeight"/>
+
+        <EditText
+            android:id="@+id/etTelp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btSend"
+        android:text="Send"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+</LinearLayout>
